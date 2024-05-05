@@ -33,7 +33,7 @@ class MemberServiceTest {
         assertEquals(member, memberRepository.findOne(savedId));
     }
 
-    @Test()
+    @Test
     public void 중복_회원_예외() throws Exception {
         //given
         Member member1 = new Member();
