@@ -28,6 +28,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-devtools'
     implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '3.2.4'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta'
+
 
     implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0'
     compileOnly 'org.projectlombok:lombok'

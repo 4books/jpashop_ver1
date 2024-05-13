@@ -23,7 +23,9 @@ public class MemberService {
     @Transactional
     public Long join(Member member) {
         validateDuplicateMember(member);
+        System.out.println("1 ==================");
         memberRepository.save(member);
+        System.out.println("2 ==================");
         return member.getId();
     }
 
